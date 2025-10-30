@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+.env
+
+# Editor
+.vscode/
+.idea/
+
+# Logs (if you don't want to commit real logs; comment out if you do want sample logs tracked)
+logs/requests.log
+
+# Docker
+*.log
+docker-compose.override.yml

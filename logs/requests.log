@@ -1,0 +1,3 @@
+{"timestamp": "2025-10-30T15:51:35.209015Z", "remote_addr": "172.18.0.1", "method": "GET", "path": "/test", "args": {}, "headers": {"Host": "localhost:8080", "User-Agent": "curl/8.13.0", "Accept": "*/*"}, "body": ""}
+{"timestamp": "2025-10-30T15:51:45.122322Z", "remote_addr": "172.18.0.1", "method": "POST", "path": "/api/test", "args": {}, "headers": {"Host": "localhost:8080", "User-Agent": "curl/8.13.0", "Accept": "*/*", "Content-Length": "13", "Content-Type": "application/x-www-form-urlencoded"}, "body": "payload=hello"}
+{"timestamp": "2025-10-30T16:11:34.322933Z", "remote_addr": "172.18.0.1", "method": "GET", "path": "/test", "args": {}, "headers": {"Host": "localhost:8080", "User-Agent": "curl/8.13.0", "Accept": "*/*"}, "body": ""}

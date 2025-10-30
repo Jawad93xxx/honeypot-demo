@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  honeypot:
+    build:
+      context: ./honeypot
+    image: honeypot-demo:latest
+    container_name: honeypot
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./logs:/app/logs
+    environment:
+      - FLASK_ENV=production
+    restart: unless-stopped

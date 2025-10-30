@@ -5,7 +5,7 @@ from pathlib import Path
 import hashlib
 
 def anonymize_ip(ip):
-    # hash de l'IP pour anonymiser mais rester stable
+
     return hashlib.sha256(ip.encode()).hexdigest()[:8]
 
 def analyze(path):
